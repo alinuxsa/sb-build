@@ -6,7 +6,7 @@ on:
   # 手动触发
   workflow_dispatch:
     inputs:
-      tags: 
+      tag: 
         description: "镜像tag"
         # required: false
         # default: 'latest'
